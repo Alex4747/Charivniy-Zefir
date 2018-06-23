@@ -1,0 +1,13 @@
+table {
+   font-family: arial;
+   text-align: center;
+}
+
+th {
+	background-color: #e85039;
+  color: white;
+}
+
+.zebra tr:nth-child(odd) {
+	background: #eeeeee;
+}
