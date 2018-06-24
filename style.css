@@ -1,15 +1,13 @@
-table {
+p, h1 {
    font-family: arial;
+}
+table {
    text-align: center;
 }
 
 th {
 	background-color: #e85039;
   color: white;
-}
-
-.zebra tr:nth-child(odd) {
-	background: #eeeeee;
 }
 
 form {
@@ -25,4 +23,26 @@ input {
 	border-radius: 10px;
 	border: 0;
 	font-size: 20pt;
+}
+
+div {
+	margin: 0 auto; 
+	text-align: center;
+}
+.zebra tr:nth-child(odd) {
+	background: #eeeeee;
+}
+
+.header-form-registration {
+	text-align: center;
+	padding-top: 2%;
+	color: white;
+	background-color: #2fb0d7;
+	height: 100px;
+}
+
+.form-registration {
+	width: 600px;
+	height: auto;
+    background-color: gray;
 }
