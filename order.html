@@ -7,9 +7,13 @@
 </head>
 <body>
     <div class="form-registration">
-        <div class="header-form-registration"><h1>Хочу зефирную баночку</h1></div>
-    <form action="/signup" method="POST">
-  <p><label>Мое имя</label><input type="text" name="first_name"></p>
+        <div class="header-form-registration">
+            <h1>Хочу зефирную баночку</h1>
+            <h6>Баночка домашнегно натурального зефира с наполнителями</h6>
+        </div>
+        <div class="footer-form-registration">
+    <form action="signup" method="POST">
+  <p><label>Мое имя</label><input class="border-form" type="text" name="first_name"></p>
   <p><label>Телефон для связи</label><input type="text" name="tel"></p>
   <p><label>Я хочу попробовать такие баночки</label><input type="text" name=""></p>
   <p><input type="checkbox" name="a" value="sk">Клубника с джемом - 60 грн</p>
@@ -21,8 +25,11 @@
 <label><input type="radio" name="status">Я заберу баночки сам (ул. Воскресенская 16а)</label></p>
   <p><label>Адрес доставки</label><input type="tel" name="country"></p>
   <p><label>Коментарий к заказу</label><input type="tel" name="country"></p>
-  <p><button>Отправить</button></p>
+  <form>
+         <input class="send" type="button" value="Отправить" onclick="javascript:window.location='index.html'"/>
+    </form>
 </form>
+</div>
 </div>
     <form>
          <input type="button" value="Все заказы" onclick="javascript:window.location='index.html'"/>

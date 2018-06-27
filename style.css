@@ -1,13 +1,14 @@
-p, h1 {
+p, h1, h6 {
    font-family: arial;
 }
 table {
    text-align: center;
+   font-family: arial;
 }
 
 th {
 	background-color: #e85039;
-  color: white;
+    color: white;
 }
 
 form {
@@ -20,7 +21,8 @@ input {
 	color: white;
 	font-family: arial;
 	padding: 1.5%;
-	border-radius: 10px;
+	border-radius: 5px;
+	border-color:red;
 	border: 0;
 	font-size: 20pt;
 }
@@ -34,15 +36,30 @@ div {
 }
 
 .header-form-registration {
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 5px; 
 	text-align: center;
 	padding-top: 2%;
 	color: white;
 	background-color: #2fb0d7;
 	height: 100px;
 }
+	
+.footer-form-registration{
 
+}
 .form-registration {
+	border-radius: 5px;
 	width: 600px;
 	height: auto;
     background-color: gray;
 }
+
+.send {
+	width: 200px;
+	color: white; 
+    background-color:#393939;
+    margin-bottom:5%;
+}
+
+
