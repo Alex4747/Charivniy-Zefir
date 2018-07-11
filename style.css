@@ -16,7 +16,16 @@ form {
 	margin-top: 5%; 
 }
 
-input {
+label, h3 {
+    color: dimgrey;
+}
+
+div {
+	margin: 0 auto; 
+	text-align: center;
+}
+
+.input {
     background-color: #4ba4f9;
 	color: white;
 	font-family: arial;
@@ -27,39 +36,111 @@ input {
 	font-size: 20pt;
 }
 
-div {
-	margin: 0 auto; 
-	text-align: center;
-}
 .zebra tr:nth-child(odd) {
 	background: #eeeeee;
 }
 
-.header-form-registration {
-	border-top-left-radius: 5px; 
-	border-top-right-radius: 5px; 
-	text-align: center;
-	padding-top: 2%;
-	color: white;
-	background-color: #2fb0d7;
-	height: 100px;
-}
-	
-.footer-form-registration{
-
-}
 .form-registration {
-	border-radius: 5px;
-	width: 600px;
-	height: auto;
-    background-color: gray;
+    width: 55%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+    border-radius: 0px 0px 10px 10px; 
+    box-shadow: -2px 1px 2px rgba(0,0,0,0.15), 
+    2px 1px 2px rgba(0,0,0,0.15);
+    text-align: left;
 }
 
-.send {
-	width: 200px;
-	color: white; 
-    background-color:#393939;
-    margin-bottom:5%;
+.form-margin {
+    width: 80%;
+    margin: 0 auto;
 }
+
+.header-form-registration {
+    border-radius: 10px 10px 0px 0px; 
+    margin-top: 5%;
+    margin-bottom: -5%;
+    width: 55%;
+    height:150px;
+    background-color: #4ba4f9;
+    color: #ffffff;
+    text-align: center;
+    font-family: arial;
+    box-shadow: -2px -1px 2px rgba(0,0,0,0.15), 
+    2px -1px 2px rgba(0,0,0,0.15);
+}
+
+#header-form-registration-p {
+    margin-top: 3%;
+}
+
+#header-form-registration-h1 {
+    padding-top: 5%;
+}
+
+#form-registration-button {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#your-name-form-registration {
+    margin-top: 9%;
+    padding-top: 5%;
+}
+
+.all-form-registration {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.input-left-form-registration {
+    text-align: left;
+    margin-left: 11%;
+}
+
+.margin-caption {
+    margin-top: 3%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#data-color-form registration {
+    color: dimgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

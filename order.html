@@ -1,38 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
-</head>
-<body>
-    <div class="form-registration">
-        <div class="header-form-registration">
-            <h1>Хочу зефирную баночку</h1>
-            <h6>Баночка домашнегно натурального зефира с наполнителями</h6>
-        </div>
-        <div class="footer-form-registration">
-    <form action="signup" method="POST">
-  <p><label>Мое имя</label><input class="border-form" type="text" name="first_name"></p>
-  <p><label>Телефон для связи</label><input type="text" name="tel"></p>
-  <p><label>Я хочу попробовать такие баночки</label><input type="text" name=""></p>
-  <p><input type="checkbox" name="a" value="sk">Клубника с джемом - 60 грн</p>
-  <p><input type="checkbox" name="a" value="ska" checked>Соленвая карамель - 60 грн</p>
-  <p><input type="checkbox" name="a" value="oreo" checked>OREO - 60 грн</p>
-  <p><label>Варианты доставки</label>
-<label><input type="radio" name="status">Доставка по Киеву - 60 грн</label>
-<label><input type="radio" name="status">Новая почта - потарифам перевозчика</label>
-<label><input type="radio" name="status">Я заберу баночки сам (ул. Воскресенская 16а)</label></p>
-  <p><label>Адрес доставки</label><input type="tel" name="country"></p>
-  <p><label>Коментарий к заказу</label><input type="tel" name="country"></p>
-  <form>
-         <input class="send" type="button" value="Отправить" onclick="javascript:window.location='index.html'"/>
-    </form>
-</form>
-</div>
-</div>
-    <form>
-         <input type="button" value="Все заказы" onclick="javascript:window.location='index.html'"/>
-    </form>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <link rel="stylesheet" type="text/css" href="bootstrapformhelpers/css/bootstrap-formhelpers.min.css">
+    <script type="text/javascript" src="bootstrapformhelpers/js/bootstrap-formhelpers.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+      <div class="container ">
+          <div class="header-form-registration">
+              <h1 id="header-form-registration-h1">Хочу зефирную баночку!</h1>
+              <p id="header-form-registration-p">Баночка домашнего натурального зефира с наполнителями</p>
+          </div>
+          <div class="form-registration">
+          <form>
+              
+              <h3 class="margin-caption" id="your-name-form-registration">Заказчик</h3>
+                <input id="input-color" type="text" class="form-control form-margin" placeholder="Ваше имя">
+              <h3 class="margin-caption">Телефон для связи</h3>
+                <input id="input-color" type = "text" class = "form-control bfh-phone form-margin" data-format = "+38 (0dd) dd dd ddd">
+              <h3 class="margin-caption">Вкусы</h3>
+              <div class="form-check input-left-form-registration">  
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Клубника с джемом - 60грн</label>
+              </div>
+              <div class="form-check input-left-form-registration">  
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">Соленая карамель - 60грн</label>
+              </div>
+              <div class="form-check input-left-form-registration">  
+                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                 <label class="form-check-label" for="defaultCheck1">OREO - 60грн</label>
+              </div>
+              <h3 class="margin-caption">Варианты доставки</h3>
+              <div class="form-check input-left-form-registration">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                <label class="form-check-label" for="exampleRadios1">Доставка по Киеву - 60грн</label>
+              </div>
+              <div class="form-check input-left-form-registration">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Новая почта - по тарифам перевозчика</label>
+              </div>
+              <div class="form-check input-left-form-registration">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Я заберу баночки сам(ул.Воскресенская 16а)</label>
+              </div>
+              <h3 class="margin-caption">Адрес доставки</h3>
+                <input id="input-color" type="text" class="form-control form-margin" placeholder="Мой ответ">
+              <h3 class="margin-caption">Коментарий к заказу</h3>
+                <input id="input-color" type="text" class="form-control form-margin" placeholder="Мой ответ">
+              <form>
+                <input class="input" id="form-registration-button" type="button" value="Отправить" onclick="javascript:window.location='index.html'"/>
+              </form>
+         </form>
+         </div>
+          <form>
+                <input class="input" id="form-registration-button" type="button" value="Все заказы" onclick="javascript:window.location='index.html'"/>
+              </form>
+      </div>
 </body>
 </html>
